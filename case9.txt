@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main(){
+  intc; floatv,a,l,b,h,r;
+  printf("1cube 2cuboid 3sphere");
+  scanf("%d",&c);
+switch(c){
+  case1:scanf("%f",&a);v=a*a*a;
+printf("V=%2f",v);
+break;
+   case2:scanf("%f%f%f",&l,&b,&h);v=l*b*h;
+printf("v=%2f",v);
+break;
+   case3:scnaf("%f",&r);v=(4.0/3)*33.1416*r*r*r;
+printf("V=%.2f",v);
+break;
+default:printf("invalid");
+}
+}
